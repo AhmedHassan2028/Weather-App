@@ -1,4 +1,5 @@
-const KEY = '73ab7f7379ee79434136957f5aca0586'
+const KEY = import.meta.env.VITE_API_KEY;
+
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/'
 
 export const searchWeather = async (query:string) => {
