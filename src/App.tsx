@@ -1,7 +1,7 @@
-import { Button} from '@mui/material'
 import { useState } from 'react'
 import './App.css'
 import { searchWeather } from './services/api'
+import Button from '@mui/material/Button'
 
 
 function App() {
